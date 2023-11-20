@@ -1,0 +1,68 @@
+bash scripting
+============================
+what  is shell?
+shell is interface between user and kernel
+shell is responsible to read commands given by user
+
+*bash shell is most powerfull shell using by usres*
+
+what shell are available in your system use this command 'cat /etc/shells'
+
+default shell is /bin/bash
+
+
+what is scripting?
+sequence of commands saved in a file is called scripting
+
+shell+scripting=shell scripting
+
+*the process of writing sequence commands and executing that file using shell is called shell scripting*
+
+
+script files will have .sh extention
+
+
+real time usage for shell scripting
+++++++++++++++++++++++++++++++++++++++++++
+1.creating and deleting log files
+2.taking log file backup
+3.installing softwarea
+4.start/stop servers
+5.daily server restart ....ect
+
+
+
+one example for script file
+------------------------------------------
+
+echo "enter your name "
+read name 
+echo "hello ;$name 'good morning' .."
+
+
+
+output is "hello rani good mornig .."
+
+
+*echo is used for printing
+
+*read is used  to read the data from console/terminal
+
+
+   "#!" ----shebang 
+   -------------------------
+   shebang is used to specify which shell we need to use to execute our script
+   
+   
+   when we want to work with any scripting/program, then we have deal with below concepts
+   
+   1.variables
+   2.datatypes
+   3.functions/methods
+   4.control statements
+   loops
+   
+   
+   variables-to store the data 
+   
+   datatypes-it represents what type of data to store into variable
